@@ -41,9 +41,8 @@ export default class Transaction extends Component {
   }
 
   makePayment() {
-
+    ApplePayHandler.makePayment();
   }
-
 
   render() {
     return (
